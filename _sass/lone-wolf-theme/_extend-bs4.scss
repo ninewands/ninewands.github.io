@@ -40,22 +40,22 @@ blockquote {
 /*
  home page jumbotron background
 =============================*/
-.home-page {
-    &-header {
-        @extend .jumbotron;
-        @extend .jumbotron-fluid;
+// .home-page {
+//     &-header {
+//         @extend .jumbotron;
+//         @extend .jumbotron-fluid;
 
-        /* default backgrounds */
-        $color-top: $primary;
-        $color-bottom: $light;
-        /* fallback for old browsers */
-        background: $color-bottom;
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: -webkit-linear-gradient(to top, $color-bottom, $color-top);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background: linear-gradient(to top, $color-bottom, $color-top);
-    }
-}
+//         /* default backgrounds */
+//         $color-top: $primary;
+//         $color-bottom: $light;
+//         /* fallback for old browsers */
+//         background: $color-bottom;
+//         /* Chrome 10-25, Safari 5.1-6 */
+//         background: -webkit-linear-gradient(to top, $color-bottom, $color-top);
+//         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//         background: linear-gradient(to top, $color-bottom, $color-top);
+//     }
+// }
 
 /*
  archive-posts list of blog posts

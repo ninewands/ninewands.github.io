@@ -9,12 +9,15 @@ layout: default
 <div class="home-page">
   <!-- home page header -->
   <section class="home-page-header">
-    <div class="container text-center">
-      <h1 class="animated fadeInDownBig">{{ page.title | default: 'HOME' }}</h1>
-      <p class="lead">{{ page.excerpt | default: 'Excerpt' }}</p>
-      {%- if page.action -%}
-        {%- include home-action-btn.html action_btn=action_btn dropdown=dropdown dropdown_items=dropdown_items -%}
-      {%- endif -%}
+    <div class="header-overlay"></div>
+    <img class="title-logo" src="{{ site.baseurl }}/assets/images/home/title_logo.png" alt="Title Logo">
+    <div class="buttons">
+      <a href="#" class="btn-img">
+        <img src="{{ site.baseurl }}/assets/images/home/googleplay-link.svg" alt="Button 1">
+      </a>
+      <a href="#" class="btn-img">
+        <img src="{{ site.baseurl }}/assets/images/home/appstore-link.svg" alt="Button 2">
+      </a>
     </div>
   </section>
 

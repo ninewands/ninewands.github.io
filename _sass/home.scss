@@ -3,7 +3,8 @@
   --title-logo-width: 700px;  /* 타이틀 로고 크기 */
   --button-size: 200px;        /* 버튼 크기 */
   --button-gap: 20px;         /* 버튼 간격 */
-  --button-margin: 50px;      /* 버튼 위치 조정 */
+  --button-margin-bottom: 100px;      /* 버튼 위치 조정 */
+  --button-margin-right: 50px;      /* 버튼 위치 조정 */
 }
 
 .home-page {
@@ -47,8 +48,8 @@
   // 버튼 컨테이너
   .buttons {
     position: absolute;
-    bottom: var(--button-margin);
-    right: var(--button-margin);
+    bottom: var(--button-margin-bottom);
+    right: var(--button-margin-right);
     display: flex;
     gap: var(--button-gap);
     z-index: 10;

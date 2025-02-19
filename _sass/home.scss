@@ -1,6 +1,6 @@
 // 변수 설정
 :root {
-  --title-logo-width: 500px;  /* 타이틀 로고 크기 */
+  --title-logo-width: 700px;  /* 타이틀 로고 크기 */
   --button-size: 200px;        /* 버튼 크기 */
   --button-gap: 20px;         /* 버튼 간격 */
   --button-margin: 50px;      /* 버튼 위치 조정 */
@@ -52,6 +52,14 @@
     display: flex;
     gap: var(--button-gap);
     z-index: 10;
+
+    /* 기본적으로 가로 정렬 */
+    flex-direction: row;
+
+    /* 화면이 500px 이하일 때 세로 정렬로 변경 */
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
 
     // 버튼 이미지
     .btn-img {

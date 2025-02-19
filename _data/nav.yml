@@ -20,10 +20,10 @@ footer:
   - social:
     - label: "X"
       icon: "fab fa-brands fa-x-twitter"
-      url: "https://privacy.ninewandsgames.com"
+      url: # "https://privacy.ninewandsgames.com"
     - label: "Discord"
       icon: "fab fa-brands fa-discord"
-      url: "https://privacy.ninewandsgames.com"
+      url: # "https://privacy.ninewandsgames.com"
   - feed:
     - label: "Sitemap"
       icon: "fas fa-sitemap"

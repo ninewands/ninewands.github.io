@@ -18,12 +18,15 @@ footer:
     bio: "I am awesome" # short bio
     address: # location
   - social:
-    - label: "X"
-      icon: "fab fa-brands fa-x-twitter"
-      url: # "https://privacy.ninewandsgames.com"
     - label: "Discord"
       icon: "fab fa-brands fa-discord"
-      url: # "https://privacy.ninewandsgames.com"
+      url: "https://discord.gg/jUt8wXWteB"
+    - label: "X"
+      icon: "fab fa-brands fa-x-twitter"
+      url: "https://x.com/NinewandsGames"
+    - label: "Instagram"
+      icon: "fab fa-brands fa-discord"
+      url: "https://www.instagram.com/ninewandsgames"
   - feed:
     - label: "Sitemap"
       icon: "fas fa-sitemap"

@@ -3,8 +3,6 @@ layout: home
 title:  "AI Mafia"
 ---
 
-<i class="fa-brands fa-x-twitter"></i>
-
 ## Mafia Game with AI
 
 Enjoy Mafia with AI! Your persuasion and intuition decide the winner.
